@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="../public/css/property.css">
+    <title>Property</title>
+</head>
+
+<body>
+    <header id="mainheader" class = "bg-info text-black p-3 mb-3">
+        <div class="container">
+
+            <div class="row">
+                <h2 id="header-title">Add Property</h2> 
+                <input type="text" id="frole" name="flocation" class="form-control-sm " placeholder="User role">
+                <div class="return-link">
+                    <p><a href="user.html" style="color:whitesmoke; font-size: larger; font-weight: bolder;">Return</a>  </p>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <form action="#">
+                <label for="fname" class="form-label-name ">Name</label>
+                <input type="text" id="fname" name="fname" class="form-control-sm " placeholder="Enter your name of the property" >
+    
+                <label for="fpicture" class="form-label">Picture</label>
+                <input type="file" id="fileUpload" class="form-control-sm" accept="image/*">
+                
+                <label for="flocation" class="form-label ">Location</label>
+                <input type="text" id="flocation" name="flocation" class="form-control-sm " placeholder="Enter the location of this property"  >
+    
+                <label for="fprice" class="form-label">Price</label>
+                <input type="number" id="fprice" name="fprice" class="form-control-sm " placeholder="Add price">
+                
+                
+                <label for="Description" class="form-label">Description</label>
+                <input type="text" id="fdescription" name="fdescription" class=" form-control-sm" placeholder="Describe something about this property">
+                
+                
+                <div class="form-inline"> 
+                <input type="submit" id="submit" class="btn" value="Add Property">
+                </div>
+    
+
+            </form>
+        </div>
+    </div>
+          <!-- <form action="#">
+                <div class="form-inline"> 
+                <label for="femail" class="form-label-email ">Name</label>
+                <input type="email" id="femail" name="femail" class="form-control-sm "  >
+    
+                <label for="fpicture" class="form-label">Picture</label>
+                <input type="" id="fpassword" name="fpassword" class="form-control-sm ">
+
+                
+                <label for="flocation" class="form-label ">Location</label>
+                <input type="text" id="flocation" name="flocation" class="form-control-sm "  >
+    
+                <label for="fprice" class="form-label">Price</label>
+                <input type="price" id="fprice" name="fprice" class="form-control-sm ">
+                
+                
+                <label for="chooseDescription" class="form-label">Description</lable>
+                <input type="text" id="chooseDescription" name="chooseDescription" class=" form-control-sm" required>
+                </div>
+                
+                <div class="form-inline"> 
+                <input type="submit" id="submit" class="btn" value="Log In">
+                </div>
+    
+            </form>
+    -->
+
+  
+      <script src ="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+      <script src="../public/js/property.js"></script>
+</body>
+
+</html>

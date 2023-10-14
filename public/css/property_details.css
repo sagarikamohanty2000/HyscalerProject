@@ -1,0 +1,48 @@
+input {
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+input.btn {
+    margin-top: 3px;
+    margin-left: 4px;
+    background-color:rgb(86, 84, 84);
+    color: rgb(255, 255, 255); 
+    width: 120px;
+    border-radius: 4px;
+}
+
+#propertyAdd{
+    margin-top: 3px;
+    margin-left: 660px;
+    background-color:rgb(86, 84, 84); 
+    color: white; 
+    width: 120px;
+    border-radius: 4px;
+}
+
+#return-link{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.card {
+    background-color: rgb(221, 241, 249);
+    height : 500px;
+}
+
+p{
+    margin-top: 10px;
+}
+#list-group-item{
+    margin-top: 2px;
+}
+
+
+#delete {
+background-color:rgb(240, 15, 15); 
+ margin-left:635px;
+}
+
+#update{
+    margin-left:90px;
+}
